@@ -1,1 +1,1 @@
-## Webpack 2 Step by Step Guide
+## Webpack 2: Step by Step Guide

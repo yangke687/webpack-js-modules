@@ -8,7 +8,11 @@ const config = {
 	},
 	module: {
 		rules: [{
-
+			use: 'babel-loader',
+			test: /\.js$/
+		},{
+			use: ['style-loader','css-loader'],
+			test: /\.css$/
 		}]
 	}
 };

@@ -10,8 +10,6 @@
 		to assemble a full webpage. We have a huge pile of Javascripts that is being shipped
 		down to our user's browser.
 
-### 
-
 ### Purpose of Webpack
 	
 	The more files we have, the slower load time for our page and this is specially true
@@ -34,7 +32,7 @@
 
 ### Code Splitting
 
-  System.imoport is a special function that is a part of ES2015 module spec.
+	System.imoport is a special function that is a part of ES2015 module spec.
   System.import returns a Promise Type and parameter 'module' of the .then function
   is what you've imported
 

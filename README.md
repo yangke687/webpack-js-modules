@@ -2,13 +2,13 @@
 
 ### Introduction to ecosystem
 	
-	+ Server Sdie Templating: 
-		Backend server creates an HTML document and sends it to the user
+	+ 	Server Sdie Templating: 
+			Backend server creates an HTML document and sends it to the user
 
-	+ Single Page Application:
-		Server sends a bare-bones HTML doc to the user. Javascript runs on the users machine
-		to assemble a full webpage. We have a huge pile of Javascripts that is being shipped
-		down to our user's browser.
+	+ 	Single Page Application:
+			Server sends a bare-bones HTML doc to the user. Javascript runs on the users machine
+			to assemble a full webpage. We have a huge pile of Javascripts that is being shipped
+			down to our user's browser.
 
 ### Purpose of Webpack
 	

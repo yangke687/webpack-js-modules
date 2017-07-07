@@ -4,7 +4,6 @@
 	
 + 	Server Sdie Templating: 
 		Backend server creates an HTML document and sends it to the user
-
 + 	Single Page Application:
 		Server sends a bare-bones HTML doc to the user. Javascript runs on the users machine
 		to assemble a full webpage. We have a huge pile of Javascripts that is being shipped
@@ -35,9 +34,7 @@ with webpack by the use of these module loaders.
 System.imoport is a special function that is a part of ES2015 module spec.
 System.import returns a Promise Type and parameter 'module' of the .then function
 is what you've imported
-
 When the 'module' is actullay loaded up, we're going to call 'module.default' which is
 gonna call our defined functions in the 'module'. 
-
 Webpack is quite literally looking for calls to System.import, and if it sees a call
 to System.import, it's going to add in all that additional codes.
